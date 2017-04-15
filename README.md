@@ -29,6 +29,8 @@ These files can be customized by modifying `ignore_files` variable in `install.s
 
 ### Installing
 
+*Note*: This currently works only on MacOS because the use of `launchctl`. 
+
 1. Install [unison](https://www.cis.upenn.edu/~bcpierce/unison/download.html) CLI tool. The easiest way is `brew install unison`.
 2. Clone or download this repository and `cd` into the folder.
 3. Check `install.sh` script and edit paths to match your system setup. Check variables `local_path`, `cloud_path` and `ignore_files`, which can be found at the top of the script.
