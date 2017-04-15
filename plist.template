@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>{{LABEL}}</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/bin/bash</string>
+      <string>{{SCRIPT_PATH}}</string>
+    </array>
+    <key>WatchPaths</key>
+    <array>
+      <string>{{LOCAL_PATH}}</string>
+      <string>{{CLOUD_PATH}}</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>{{LOG_FILE}}</string>
+    <key>StandardErrorPath</key>
+    <string>{{ERR_FILE}}</string>
+    <key>LowPriorityIO</key>
+    <true/>
+    <key>Nice</key>
+    <integer>1</integer>
+  </dict>
+</plist>

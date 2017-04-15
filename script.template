@@ -1,0 +1,3 @@
+#!/bin/bash
+
+{{UNISON_PATH}} -batch -ignore="Name {{{IGNORE_FILES}}}" "{{LOCAL_PATH}}" "{{CLOUD_PATH}}"
