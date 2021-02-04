@@ -54,6 +54,10 @@ Run `./install.sh --uninstall` to unload and remove the config, remove the synci
 As far as software goes, it all comes down to `unison` performance, which seems to be quite fast. On my MacBook Pro (13" retina, late 2013: 2.4 GHz CPU, 8gb RAM, 256gb SSD) with projects folder size of 2.5GB with ~125k files or 62k without counting `node_modules`, it took about 75s to init, i.e. clone the whole project folder. Real cases will probably see only a few files changed here and there, which should sync instantaneously.
 
 
+### Related solutions
+
+- [iCloud-NoSync](https://github.com/tsdexter/iCloud-NoSync): An Automator utility to have iCloud Sync ignore an entire folder without losing access to the folder path
+
 ### Credits
 
 Thank you @tatums for the [rsyc-icloud-hack](https://github.com/tatums/rsyc-icloud-hack) project, it helped me a lot to shape this project!
